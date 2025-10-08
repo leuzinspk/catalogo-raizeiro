@@ -46,7 +46,7 @@
   },
   {
     "nome": "CASTANHA DO PARA MIUDA KG",
-    "imagem": ""
+    "imagem": "imagens/para_inteira_miuda.png"
   },
   {
     "nome": "CHOCOLATE GRANULADO S/LACTOSE KG",
@@ -226,7 +226,7 @@
   },
   {
     "nome": "GRANOLA COM FRUTAS KG",
-    "imagem": ""
+    "imagem": "imagens/granola_trad.png"
   },
   {
     "nome": "UVA PASSA PRETA KG",
@@ -510,7 +510,7 @@
   },
   {
     "nome": "FARELO DE AVEIA KG",
-    "imagem": ""
+    "imagem": "imagens/aveia_farelo.png"
   },
   {
     "nome": "GELATINA PURA EM PO KG",
@@ -1670,11 +1670,11 @@
   },
   {
     "nome": "AVEIA FLOCOS LAMINADA KG",
-    "imagem": ""
+    "imagem": "imagens/aveia_grossa.png"
   },
   {
     "nome": "AVEIA FLOCOS FINOS KG",
-    "imagem": ""
+    "imagem": "imagens/aveia_finos.png"
   },
   {
     "nome": "BALAS URSINHO COM XYLITOL KG",
@@ -1989,10 +1989,6 @@
     "imagem": ""
   },
   {
-    "nome": "UVA PASSA PRETA PROMOCIONAL KG",
-    "imagem": ""
-  },
-  {
     "nome": "PEPITA DE GIRASSOL TORRADA C/SAL KG",
     "imagem": ""
   },
@@ -2098,10 +2094,6 @@
   },
   {
     "nome": "KIT PETISCOS KG",
-    "imagem": ""
-  },
-  {
-    "nome": "ACUCAR DEMERARA KG",
     "imagem": ""
   },
   {
@@ -2285,10 +2277,6 @@
     "imagem": "imagens/ameixa.png"
   },
   {
-    "nome": "CASTANHA DO PARA LARGE RAIZEIRO KG",
-    "imagem": ""
-  },
-  {
     "nome": "BOMBOM COB CHOC BRANCO RECH CHOC/AVELA KG",
     "imagem": ""
   },
@@ -2326,7 +2314,7 @@
   },
   {
     "nome": "FARINHA DE AVEIA KG",
-    "imagem": ""
+    "imagem": "imagens/aveia_farinha.png"
   },
   {
     "nome": "WAFER RECH. CAST.CAJU/CANELA COB CHOC KG",
@@ -2602,7 +2590,7 @@
   },
   {
     "nome": "CASTANHA DO PARA MEDIA KG",
-    "imagem": ""
+    "imagem": "imagens/para_inteira_media.png"
   },
   {
     "nome": "CANELA 40/50/60 CENTIMETRO KG",
@@ -3158,7 +3146,7 @@
   },
   {
     "nome": "GRANOLA ZERO ACUCAR KG",
-    "imagem": ""
+    "imagem": "imagens/granola_zero.png"
   },
   {
     "nome": "GOIABA DESIDRATADA KG",
@@ -3358,10 +3346,6 @@
   },
   {
     "nome": "CRATAEGUS KG",
-    "imagem": ""
-  },
-  {
-    "nome": "ACUCAR DE CONFEITEIRO KG",
     "imagem": ""
   },
   {
@@ -3726,11 +3710,11 @@
   },
   {
     "nome": "CAST DO PARA PARTIDA KG",
-    "imagem": ""
+    "imagem": "imagens/pará_partida.png"
   },
   {
     "nome": "CAST DO PARA QUEBRADA KG",
-    "imagem": ""
+    "imagem": "imagens/cast_para_quebrada.png"
   },
   {
     "nome": "GRANOLA ARTESANAL C/CANELA KG",
@@ -3758,10 +3742,6 @@
   },
   {
     "nome": "QUEIJO COALHO ESPETO KG QUATA",
-    "imagem": ""
-  },
-  {
-    "nome": "ADOCANTE DIETETICO PALAZZO KG",
     "imagem": ""
   },
   {
@@ -3940,10 +3920,7 @@
     "nome": "DEXTROZZ SACO 1KG NEUTRO INTEGRALMEDICA",
     "imagem": ""
   },
-  {
-    "nome": "AFAP RECOVERY FRUTAS AMARELAS 1.364KG HOPPER",
-    "imagem": ""
-  },
+
   {
     "nome": "CREATINA HARDCORE POUCH 1KG INTEGRALMEDICA",
     "imagem": ""
@@ -3982,18 +3959,6 @@
   },
   {
     "nome": "MALTODEXTRIN UVA POUCH 1KG INTEGRALMEDICA",
-    "imagem": ""
-  },
-  {
-    "nome": "FORGE WHEY CHOCOLATE 1.364KG HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "FORGE WHEY SORV CREME 1.364KG HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "AFAP RECOVERY MORANGO LIMAO 1.364KG HOPPER",
     "imagem": ""
   },
   {
@@ -4286,7 +4251,7 @@
   },
   {
     "nome": "CASTANHA DO PARA LARGE KG",
-    "imagem": ""
+    "imagem": "imagens/para_inteira_large.png"
   },
   {
     "nome": "ERVILHA GRAO KG",
@@ -4322,10 +4287,6 @@
   },
   {
     "nome": "CHOC EM MOEDAS AO LEITE KG",
-    "imagem": ""
-  },
-  {
-    "nome": "ACUCAR DEMERARA ORGANICO 1KG",
     "imagem": ""
   },
   {
@@ -4837,23 +4798,7 @@
     "imagem": ""
   },
   {
-    "nome": "AFAP RECOVERY MORANGO LIMAO 1.364KG HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "FORGE WHEY CHOCOLATE 1.364KG HOPPER",
-    "imagem": ""
-  },
-  {
     "nome": "CREATINA HARDCORE POUCH 1KG INTEGRALMEDICA",
-    "imagem": ""
-  },
-  {
-    "nome": "FORGE WHEY SORV CREME 1.364KG HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "AFAP RECOVERY FRUTAS AMARELAS 1.364KG HOPPER",
     "imagem": ""
   },
   {
@@ -4978,10 +4923,6 @@
   },
   {
     "nome": "COOKIES CHOCOLATE KG",
-    "imagem": ""
-  },
-  {
-    "nome": "ADOCANTE USE METADE DIET 1KG PALAZZO",
     "imagem": ""
   },
   {
@@ -5373,10 +5314,6 @@
     "imagem": ""
   },
   {
-    "nome": "ACUCAR DEMERARA ORGANICO 1KG",
-    "imagem": ""
-  },
-  {
     "nome": "PEITO DE PERU DE SOJA 1Kg GOSHEN",
     "imagem": ""
   },
@@ -5442,10 +5379,6 @@
   },
   {
     "nome": "GRAO DE BICO TORR SALG KG",
-    "imagem": ""
-  },
-  {
-    "nome": "FARIN DE LINHACA DOURADA PROMOCIONAL KG",
     "imagem": ""
   },
   {
@@ -5702,10 +5635,6 @@
   },
   {
     "nome": "AZEITONA PRETA S/C AZAPA CONSERVA KG",
-    "imagem": ""
-  },
-  {
-    "nome": "CREATINA HARDCORE POUCH 1KG INTEGRALMEDICA promo",
     "imagem": ""
   },
   {
@@ -8553,10 +8482,6 @@
     "imagem": ""
   },
   {
-    "nome": "ESSENCIA DE CEREJA 30ML ARCOLOR promo",
-    "imagem": ""
-  },
-  {
     "nome": "VINAGRE BALSAMICO 500ML LA PASTINA",
     "imagem": ""
   },
@@ -8965,10 +8890,6 @@
     "imagem": ""
   },
   {
-    "nome": "RECARB PALATINOSE MELANCIA 300G HOPPER",
-    "imagem": ""
-  },
-  {
     "nome": "REDCHAOS ENERGY BUBBLE GUM 150G INTEGRALMEDICA",
     "imagem": ""
   },
@@ -8986,10 +8907,6 @@
   },
   {
     "nome": "REDCHAOS BURN BLUEBERRY 150G INTEGRALMEDICA",
-    "imagem": ""
-  },
-  {
-    "nome": "GLUTAPRIME NEUTRO 300G HOPPER",
     "imagem": ""
   },
   {
@@ -9061,10 +8978,6 @@
     "imagem": ""
   },
   {
-    "nome": "REPMAX CREATINE 300G HOPPER",
-    "imagem": ""
-  },
-  {
     "nome": "BCAA TOP 120 CAPS INTEG MEDICA",
     "imagem": ""
   },
@@ -9074,26 +8987,6 @@
   },
   {
     "nome": "L.A. TOP DEFINITION C/ CROM 120 CAPS INTEG MEDICA",
-    "imagem": ""
-  },
-  {
-    "nome": "CINDY BAR TRUFA DE CHOCO 45G HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "CINDY BAR DOCE DE LEITE E AMEND 45G HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "CINDY BAR DOCE DE COCO 45G HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "MURPH MACA VERDE 300G HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "MURPH ENERGY DRINK 300G HOPPER",
     "imagem": ""
   },
   {
@@ -9958,14 +9851,6 @@
   },
   {
     "nome": "CREATINE DARKNESS 350G INTEG MEDICA",
-    "imagem": ""
-  },
-  {
-    "nome": "OMEGA 3 60CAPS HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "MURPH PRE WORK DRINK MACA VERDE 269ml HOPPER",
     "imagem": ""
   },
   {
@@ -13539,10 +13424,6 @@
     "imagem": ""
   },
   {
-    "nome": "ACUCAR DE CONFEITEIRO UNIAO 500G",
-    "imagem": ""
-  },
-  {
     "nome": "BEST WHEY BANANA CARAMELIZADA ATLHETICA 30G",
     "imagem": ""
   },
@@ -16632,10 +16513,6 @@
   },
   {
     "nome": "SUCO DE PESSEGO BLEND 900ML NAT ONE",
-    "imagem": ""
-  },
-  {
-    "nome": "ACUCAR DEMERARA DOURADO 500G GRINGS",
     "imagem": ""
   },
   {
@@ -22899,10 +22776,6 @@
     "imagem": ""
   },
   {
-    "nome": "ACUCAR DE CONFEITEIRO UNIAO 500G",
-    "imagem": ""
-  },
-  {
     "nome": "TORRADA BAUDUCCO TRADICIONAL 142G",
     "imagem": ""
   },
@@ -27251,10 +27124,6 @@
     "imagem": ""
   },
   {
-    "nome": "COQUETELEIRA HOPPER DUAS DOSES",
-    "imagem": ""
-  },
-  {
     "nome": "GARRAFA DE VIDRO NUTRIFY",
     "imagem": ""
   },
@@ -27703,30 +27572,6 @@
     "imagem": ""
   },
   {
-    "nome": "CINDY BAR DOCE DE LEITE E AMEND 45G HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "CINDY BAR DOCE DE LEITE E AMEND 45G HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "MURPH MACA VERDE 300G HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "MURPH ENERGY DRINK 300G HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "REPMAX CREATINE 300G HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "GLUTAPRIME NEUTRO 300G HOPPER",
-    "imagem": ""
-  },
-  {
     "nome": "BCAA FIX POWDER NEUTRO 240G INTEGRALMEDICA",
     "imagem": ""
   },
@@ -27756,14 +27601,6 @@
   },
   {
     "nome": "VEGANPRO BAR AMEND CROCAN UNID 40G NUTRIFY",
-    "imagem": ""
-  },
-  {
-    "nome": "RISE NIGHTTI RECOV LEI/CAN 907G HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "RECARB PALATINOSE MELANCIA 300G HOPPER",
     "imagem": ""
   },
   {
@@ -27816,10 +27653,6 @@
   },
   {
     "nome": "DARK BAR COOK CREAM 90G INTEG MEDICA",
-    "imagem": ""
-  },
-  {
-    "nome": "CINDY BAR DOCE DE COCO 45G HOPPER",
     "imagem": ""
   },
   {
@@ -27879,18 +27712,6 @@
     "imagem": ""
   },
   {
-    "nome": "CINDY BAR DOCE DE COCO 45G HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "CINDY BAR TRUFA DE CHOCO 45G HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "CINDY BAR TRUFA DE CHOCO 45G HOPPER",
-    "imagem": ""
-  },
-  {
     "nome": "OMEGA 3 60CAPS INTEG MEDICA",
     "imagem": ""
   },
@@ -27935,10 +27756,6 @@
     "imagem": ""
   },
   {
-    "nome": "MURPH PRE WORK DRINK MACA VERDE 269ml HOPPER",
-    "imagem": ""
-  },
-  {
     "nome": "CREATINE 300G NUTRIFY",
     "imagem": ""
   },
@@ -27959,10 +27776,6 @@
     "imagem": ""
   },
   {
-    "nome": "MURPH PRE WORK DRINK MACA VERDE 269ml HOPPER",
-    "imagem": ""
-  },
-  {
     "nome": "CRISP BAR LEITE EM PO 45G INTEG MEDICA",
     "imagem": ""
   },
@@ -27976,10 +27789,6 @@
   },
   {
     "nome": "PROPOLIS VERDE 60 CAPS NUTRIFY",
-    "imagem": ""
-  },
-  {
-    "nome": "OMEGA 3 60CAPS HOPPER",
     "imagem": ""
   },
   {
@@ -28208,42 +28017,6 @@
   },
   {
     "nome": "PREBIOTIC NEUTRO 210g NUTRIFY",
-    "imagem": ""
-  },
-  {
-    "nome": "BUILT WHEY CHOCO 907g HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "BUILT WHEY MORAN 907g HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "BUILT WHEY BAUNIL 907g HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "ISO PROTEIN CHOCO 907g HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "ISO PROTEIN MORAN 907g HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "ISO PROTEIN BAUNIL 907g HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "COLAGEN II 60 CAPS HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "BETA ALANINA 123g HOPPER",
-    "imagem": ""
-  },
-  {
-    "nome": "SPRINT CAFFEINE 60CAPS HOPPER",
     "imagem": ""
   },
   {
@@ -30652,10 +30425,6 @@
   },
   {
     "nome": "ACUCAR LIGHT C/STEVIA ORG 500G GRINGS",
-    "imagem": ""
-  },
-  {
-    "nome": "ACUCAR DEMERARA DOURADO 500G GRINGS",
     "imagem": ""
   },
   {
@@ -35544,10 +35313,6 @@
   },
   {
     "nome": "SHAKE VEGANO CAPIM SANTO LIMAO 400G BLACK SKULL",
-    "imagem": ""
-  },
-  {
-    "nome": "COQUETELEIRA PROMOCIONAL BLACK SKULL",
     "imagem": ""
   },
   {
@@ -41139,10 +40904,6 @@
     "imagem": ""
   },
   {
-    "nome": "PALMITO CONS INTEIRO 530g PALMITO BRASIL promo",
-    "imagem": ""
-  },
-  {
     "nome": "NUTRI YEAST FLAKES 300g NUTRIFY",
     "imagem": ""
   },
@@ -41347,19 +41108,11 @@
     "imagem": ""
   },
   {
-    "nome": "ESSENCIA DE BAUNILHA 30ML ARCOLOR promo",
-    "imagem": ""
-  },
-  {
     "nome": "LEITE CONDENSADO MOCA ZERO LAC 395G NESTLE",
     "imagem": ""
   },
   {
     "nome": "SHAKE NATURAL WHEY BAUNILHA 250ml VERDE CAMPO",
-    "imagem": ""
-  },
-  {
-    "nome": "TOP WHEY BAR CHOC/AVELA 41G MAX TITANIUM promo",
     "imagem": ""
   },
   {
@@ -41408,10 +41161,6 @@
   },
   {
     "nome": "BEM ME QUER 180g TOMATE SECO",
-    "imagem": ""
-  },
-  {
-    "nome": "BEM ME QUER 180g ERVAS FINAS promo",
     "imagem": ""
   },
   {
@@ -41472,10 +41221,6 @@
   },
   {
     "nome": "FLOCOS DE MILHO CUSCUZ 500g DA TERRINHA",
-    "imagem": ""
-  },
-  {
-    "nome": "PAO AUSTRALIANO LOW CARB 500g IRANI MAGGIORE promo",
     "imagem": ""
   },
   {
@@ -41767,10 +41512,6 @@
     "imagem": ""
   },
   {
-    "nome": "PETISCO DO CHEF QUEIJO 77G BIJU Promo",
-    "imagem": ""
-  },
-  {
     "nome": "SATTVA MANTEIGA DE CUPUACU E CACAU C/SAL 200G",
     "imagem": ""
   },
@@ -41788,10 +41529,6 @@
   },
   {
     "nome": "TAPIOCA MASSA PRONTA 70g DA TERRINHA",
-    "imagem": ""
-  },
-  {
-    "nome": "LEITE UHT DESNATADO ZERO LACTOSE 1L ITALAC promo",
     "imagem": ""
   },
   {
@@ -41839,19 +41576,11 @@
     "imagem": ""
   },
   {
-    "nome": "LEITE UHT SEMIDESNATADO 1L ITALAC promo",
-    "imagem": ""
-  },
-  {
     "nome": "IOGURTE MORANGO 170g VERDE CAMPO",
     "imagem": ""
   },
   {
     "nome": "nan",
-    "imagem": ""
-  },
-  {
-    "nome": "SHAKE SENSYLAC MORANGO/KIWI 400G CHA MAIS promo",
     "imagem": ""
   },
   {
@@ -42039,15 +41768,7 @@
     "imagem": ""
   },
   {
-    "nome": "PASTA DE AMENDOIM LEITE EM PO 250G DR.PEANUT promo",
-    "imagem": ""
-  },
-  {
     "nome": "PASTA DE AMENDOIM PACOCA 600g DR.PEANUT",
-    "imagem": ""
-  },
-  {
-    "nome": "GRASSFED WHEY PROTEIN FRAMB SCH 30gPURAVIDA promo",
     "imagem": ""
   },
   {
@@ -42188,10 +41909,6 @@
   },
   {
     "nome": "ERVA MATE TRAD A VACUO 500g BARAO",
-    "imagem": ""
-  },
-  {
-    "nome": "MARMITA STROGONOFF DE FRANGO C/BATATA DOCE E ARROZ INT 350g promo",
     "imagem": ""
   },
   {
@@ -42619,10 +42336,6 @@
     "imagem": ""
   },
   {
-    "nome": "CAPSULA QUITOSMAIS 60CAPS 400mg 24g CLINIC MAIS promo",
-    "imagem": ""
-  },
-  {
     "nome": "CANJA DA MAMAE 110g HOLYSOUP",
     "imagem": ""
   },
@@ -42864,10 +42577,6 @@
   },
   {
     "nome": "FLOCAO DE MILHO 400g TERRINHA",
-    "imagem": ""
-  },
-  {
-    "nome": "QUEIJO PROVOLONE 200g HINDU promo",
     "imagem": ""
   },
   {
@@ -43275,10 +42984,6 @@
     "imagem": ""
   },
   {
-    "nome": "PIMENTA DE CHEIRO 200G FOGO MINEIRO promo",
-    "imagem": ""
-  },
-  {
     "nome": "CREME DE AVELA COM CACAU 100g BOM PRINCIPIO",
     "imagem": ""
   },
@@ -43327,10 +43032,6 @@
     "imagem": ""
   },
   {
-    "nome": "SHAKE MAIS COM CHIA SABOR ART.MORANGO 400G CLINIC MAIS promo",
-    "imagem": ""
-  },
-  {
     "nome": "MACA DE ELEFANTE",
     "imagem": ""
   },
@@ -43368,10 +43069,6 @@
   },
   {
     "nome": "PEQUI FATIADO 300g PONZAN",
-    "imagem": ""
-  },
-  {
-    "nome": "CHA MAIS CAFE VERDE 60CAPS 30G PROMO",
     "imagem": ""
   },
   {
@@ -43475,14 +43172,6 @@
     "imagem": ""
   },
   {
-    "nome": "PAO DE FORMA INT DE CENOURA 400g NUTRI VIDA PROMO",
-    "imagem": ""
-  },
-  {
-    "nome": "PAO DE FORMA INT TRADICIONAL 400g NUTRI VIDA promo",
-    "imagem": ""
-  },
-  {
     "nome": "BISNAGUINHA TRAD 200g S/G BELIVE",
     "imagem": ""
   },
@@ -43512,10 +43201,6 @@
   },
   {
     "nome": "MACARRAO ARROZ ALFA 200g BIFUM",
-    "imagem": ""
-  },
-  {
-    "nome": "WHEY 100% HD CHOCOLATE 900G REFIL BLACK SKULL promo",
     "imagem": ""
   },
   {
@@ -43552,10 +43237,6 @@
   },
   {
     "nome": "AMENDOA CONFEITADA",
-    "imagem": ""
-  },
-  {
-    "nome": "PAO DE MILHO 400g NUTRI VIDA promo",
     "imagem": ""
   },
   {
@@ -43632,10 +43313,6 @@
   },
   {
     "nome": "PANTASTICA MISTURA ALPINO 160G",
-    "imagem": ""
-  },
-  {
-    "nome": "BEBIDA DE ARROZ EM PO 300g RISOVITA promo",
     "imagem": ""
   },
   {
@@ -43799,10 +43476,6 @@
     "imagem": ""
   },
   {
-    "nome": "KOMBUCHA FLOR DE FADA AZUL/LIMAO E GENG 355ML DASBI promo",
-    "imagem": ""
-  },
-  {
     "nome": "CORACAO DE ALCACHOFRA 280g LA PASTINA",
     "imagem": ""
   },
@@ -43832,10 +43505,6 @@
   },
   {
     "nome": "BEBIDA VEGETAL VIDA COFFEE ORG 250ml VIDA VEG",
-    "imagem": ""
-  },
-  {
-    "nome": "GELEIA DE GOIABA ZERO 200G VITAO Promo",
     "imagem": ""
   },
   {
@@ -43967,10 +43636,6 @@
     "imagem": ""
   },
   {
-    "nome": "PASTA DE AMENDOIM CHOC BRANCO 600g DR.PEANUT promo",
-    "imagem": ""
-  },
-  {
     "nome": "GLUCOMANAN 60 CAPS 500mg SUNFOOD",
     "imagem": ""
   },
@@ -43980,10 +43645,6 @@
   },
   {
     "nome": "GREGO FRUTAS VERMELHAS 90g DANONE",
-    "imagem": ""
-  },
-  {
-    "nome": "LACIELLA 70% ZERO CACAU 80g promo",
     "imagem": ""
   },
   {

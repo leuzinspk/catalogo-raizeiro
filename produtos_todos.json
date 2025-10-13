@@ -270,7 +270,7 @@
   },
   {
     "nome": "ACUCAR MASCAVO KG",
-    "imagem": ""
+    "imagem": "imagens/mascavo.png"
   },
   {
     "nome": "ERVA DOCE TURCA KG",
@@ -326,7 +326,7 @@
   },
   {
     "nome": "AGAR AGAR PO MEDICINAL KG",
-    "imagem": ""
+    "imagem": "imagens/agar_medicinal.png"
   },
   {
     "nome": "MARAPUAMA PO KG",
@@ -378,11 +378,11 @@
   },
   {
     "nome": "ALBUMINA PROTEIN KG",
-    "imagem": ""
+    "imagem": "imagens/albumina.png"
   },
   {
     "nome": "BETERRABA PO KG",
-    "imagem": ""
+    "imagem": "imagens/beterraba.png"
   },
   {
     "nome": "CURRY EM PO KG",
@@ -394,7 +394,7 @@
   },
   {
     "nome": "GENGIBRE MOIDO PO KG",
-    "imagem": ""
+    "imagem": "imagens/gengibre.png"
   },
   {
     "nome": "GRAO DE BICO MEXICANO 12MM KG",
@@ -410,7 +410,7 @@
   },
   {
     "nome": "GINSENG PO KG",
-    "imagem": ""
+    "imagem": "imagens/ginseng.png"
   },
   {
     "nome": "COLAGENO HIDROLISADO KG",
@@ -598,7 +598,7 @@
   },
   {
     "nome": "MORINGA FOLHA KG",
-    "imagem": ""
+    "imagem": "imagens/moringafolha.png"
   },
   {
     "nome": "ARNICA DE PENDAO KG",
@@ -702,7 +702,7 @@
   },
   {
     "nome": "ALECRIM DO CAMPO KG",
-    "imagem": ""
+    "imagem": "imagens/alecrimcampo.png"
   },
   {
     "nome": "CHA VERDE IMPORTADO KG",
@@ -770,7 +770,7 @@
   },
   {
     "nome": "AGONIADA KG",
-    "imagem": ""
+    "imagem": "imagens/agoniada.png"
   },
   {
     "nome": "QUINA QUINA KG",
@@ -858,7 +858,7 @@
   },
   {
     "nome": "ALCACUS KG",
-    "imagem": ""
+    "imagem": "imagens/alcacus.png"
   },
   {
     "nome": "GENCIANA KG",
@@ -1122,7 +1122,7 @@
   },
   {
     "nome": "ALCACHOFRA FOLHA KG",
-    "imagem": ""
+    "imagem": "imagens/alcachofra.pnc.jpeg"
   },
   {
     "nome": "IPE ROXO KG",
@@ -1130,7 +1130,7 @@
   },
   {
     "nome": "GUARANA EM PO KG",
-    "imagem": ""
+    "imagem": "imagens/guarana.png"
   },
   {
     "nome": "SETE SANGRIAS KG",
@@ -1170,7 +1170,7 @@
   },
   {
     "nome": "FARINHA DE UVA KG",
-    "imagem": ""
+    "imagem": "imagens/farinuva.png"
   },
   {
     "nome": "OREGANO DESID KG",
@@ -1310,7 +1310,7 @@
   },
   {
     "nome": "PSYLLIUM KG",
-    "imagem": ""
+    "imagem": "imagens/psyllium.png"
   },
   {
     "nome": "MANGERONA TRITURADA KG",
@@ -1738,7 +1738,7 @@
   },
   {
     "nome": "ALCAPARRA CAPOTE KG",
-    "imagem": ""
+    "imagem": "imagens/alcaparra.png"
   },
   {
     "nome": "CIPO DE SAO JOAO KG",
@@ -2714,7 +2714,7 @@
   },
   {
     "nome": "AGAR AGAR GELATINA ALGAS KG",
-    "imagem": ""
+    "imagem": "imagens/agar_gelatina.png"
   },
   {
     "nome": "GLUTAMINA KG",
@@ -2802,7 +2802,7 @@
   },
   {
     "nome": "ACUCAR DE COCO KG",
-    "imagem": ""
+    "imagem": "imagens/acucar_coco.png"
   },
   {
     "nome": "TAPIOCA GRANULADA KG",
@@ -3257,10 +3257,6 @@
     "imagem": ""
   },
   {
-    "nome": "ACUCAR DE MACA KG",
-    "imagem": ""
-  },
-  {
     "nome": "FENO GREGO MOIDO KG",
     "imagem": ""
   },
@@ -3626,7 +3622,7 @@
   },
   {
     "nome": "ACUCAR DEMERARA NAT ORGANICO KG",
-    "imagem": ""
+    "imagem": "imagens/demerara.png"
   },
   {
     "nome": "CAFE RAIZEIRO KG",
@@ -4718,10 +4714,6 @@
     "imagem": ""
   },
   {
-    "nome": "ALCAPARRA CAPOTE KG",
-    "imagem": ""
-  },
-  {
     "nome": "PIMENTA BIQUINHO KG",
     "imagem": ""
   },
@@ -4747,11 +4739,11 @@
   },
   {
     "nome": "ACUCAR DE BAUNILHA KG",
-    "imagem": ""
+    "imagem": "imagens/acucar_baunilha.png"
   },
   {
     "nome": "ACUCAR DE CONFEITEIRO KG",
-    "imagem": ""
+    "imagem": "imagens/acucar_confeiteiro.png"
   },
   {
     "nome": "PIPICAT GRAN SANIT CLASSIC 4KG KELCO",
@@ -5286,10 +5278,6 @@
     "imagem": ""
   },
   {
-    "nome": "ALBUMINA PROTEIN KG",
-    "imagem": ""
-  },
-  {
     "nome": "CHOCOLIFE 50% CACAU 1.01KG",
     "imagem": ""
   },
@@ -5539,7 +5527,7 @@
   },
   {
     "nome": "MORINGA EM PÓ KG",
-    "imagem": ""
+    "imagem": "imagens/moringapó.png"
   },
   {
     "nome": "MINHOCA CITRICA FINI KG",
@@ -5603,7 +5591,7 @@
   },
   {
     "nome": "FIBRA DE GLUCOMANANO KG",
-    "imagem": ""
+    "imagem": "imagens/glucomanan.png"
   },
   {
     "nome": "MACA PERUANA PRETA EM PO KG",
@@ -16997,10 +16985,6 @@
   },
   {
     "nome": "A TAL DA CASTANHA CAJU/AVEIA BARISTA 1L",
-    "imagem": ""
-  },
-  {
-    "nome": "ACUCAR DE MACA 150G AIRON",
     "imagem": ""
   },
   {
@@ -32129,10 +32113,6 @@
   },
   {
     "nome": "ADOCANTE XYLITOL/TAUMAT 60ML AIRON",
-    "imagem": ""
-  },
-  {
-    "nome": "ACUCAR DE MACA 150G AIRON",
     "imagem": ""
   },
   {

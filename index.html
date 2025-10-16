@@ -4,334 +4,33 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Raizeiro Integral — Catálogo Granel</title>
-    <meta name="description" content="Catálogo interativo de produtos a granel — Raizeiro Integral" />
-
-
-    <style>
-        :root {
-            --brand-orange: #e27c1e;
-            /* Laranja queimado */
-            --brand-yellow: #f8d46b;
-            /* Amarelo natural */
-            --brand-black: #1a1a1a;
-            /* Preto base */
-            --wood-bg: #2c2117;
-            /* Fundo amadeirado escuro */
-            --wood-light: #4b3826;
-            /* Tom claro para os cards */
-            --text-main: #fff9e8;
-            /* Texto principal (creme) */
-            --text-highlight: #fff4b0;
-            /* Título dos produtos */
-            --border-card: #e8a34b;
-            /* Dourado nos contornos */
-            --shadow: rgba(0, 0, 0, 0.45);
-            --radius: 14px;
-            --max-width: 1100px;
-            font-family: "Poppins", system-ui, sans-serif;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        html,
-        body {
-            height: 100%;
-            margin: 0;
-            background: var(--wood-bg);
-            color: var(--text-main);
-            background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
-            background-repeat: repeat;
-            background-attachment: fixed;
-        }
-
-        /* === ESTRUTURA GERAL === */
-        .wrap {
-            max-width: var(--max-width);
-            margin: 30px auto;
-            padding: 20px;
-        }
-
-        /* === CABEÇALHO === */
-        header {
-            display: flex;
-            align-items: center;
-            gap: 16px;
-            border-bottom: 2px solid var(--brand-orange);
-            padding-bottom: 12px;
-        }
-
-        .logo img {
-            width: 250px;
-            height: auto;
-            margin-left: 400px;
-            /* ajusta a posição para a direita */
-        }
-
-
-        h1 {
-            margin: 0;
-            font-size: 24px;
-            color: var(--brand-yellow);
-            text-shadow: 0 2px 3px #000;
-        }
-
-        p.lead {
-            margin: 0;
-            color: #d6c7a2;
-            font-size: 14px;
-        }
-
-        /* === BARRA DE BUSCA E FILTROS === */
-        .controls {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 18px;
-            align-items: center;
-        }
-
-        .search {
-            flex: 1;
-            min-width: 220px;
-        }
-
-        input[type="search"] {
-            width: 100%;
-            padding: 11px 14px;
-            border-radius: var(--radius);
-            border: 1px solid #5a4633;
-            background: #3a2c1f;
-            color: var(--text-main);
-            font-size: 15px;
-            outline: none;
-        }
-
-        input[type="search"]:focus {
-            border-color: var(--brand-yellow);
-            box-shadow: 0 0 6px var(--brand-yellow);
-        }
-
-        /* === BOTÕES === */
-        .btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 9px 12px;
-            border-radius: var(--radius);
-            border: none;
-            cursor: pointer;
-            background: var(--brand-orange);
-            color: #fff;
-            font-weight: 600;
-            transition: 0.2s;
-        }
-
-        .btn:hover {
-            background: var(--brand-yellow);
-            color: var(--brand-black);
-            transform: translateY(-1px);
-        }
-
-        .btn.ghost {
-            background: transparent;
-            border: 1px solid var(--brand-orange);
-            color: var(--brand-orange);
-        }
-
-        .btn.ghost:hover {
-            background: var(--brand-orange);
-            color: #fff;
-        }
-
-        /* === SELECTS === */
-        .select {
-            padding: 8px;
-            border-radius: var(--radius);
-            border: 1px solid #5a4633;
-            background: #3a2c1f;
-            color: var(--text-main);
-        }
-
-        /* === GRID DE PRODUTOS === */
-        main {
-            margin-top: 24px;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-            gap: 22px;
-            margin-top: 10px;
-        }
-
-        /* === CARDS === */
-        .card {
-            background: var(--wood-light);
-            border: 2px solid var(--border-card);
-            border-radius: var(--radius);
-            padding: 16px;
-            box-shadow: 0 4px 10px var(--shadow);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            cursor: pointer;
-            transition: all 0.25s ease;
-        }
-
-        .card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
-            border-color: var(--brand-yellow);
-        }
-
-        /* Texto do produto */
-        .name {
-            font-size: 18px;
-            font-weight: 700;
-            color: var(--text-highlight);
-            text-shadow: 1px 1px 2px #000;
-            letter-spacing: 0.4px;
-            line-height: 1.4;
-            text-align: center;
-        }
-
-        /* Unidade (ex: KG) */
-
-
-        /* Mini box superior (sem imagem) */
-        .thumb {
-            height: 220px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 10px;
-            border: 1px dashed rgba(255, 255, 255, 0.15);
-            background: rgba(0, 0, 0, 0.15);
-            color: var(--text-main);
-            margin-bottom: 8px;
-        }
-
-        /* === AJUSTE DAS IMAGENS NOS CARDS === */
-        .thumb img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            /* preenche o quadrado mantendo proporção */
-            border-radius: 10px;
-            display: block;
-        }
-
-        /* === MODAL === */
-        .modal {
-            position: fixed;
-            inset: 0;
-            display: none;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0, 0, 0, 0.6);
-            z-index: 999;
-        }
-
-        .modal.open {
-            display: flex;
-        }
-
-        .modal-card {
-            background: var(--wood-light);
-            border-radius: var(--radius);
-            padding: 20px;
-            color: var(--text-main);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-            max-width: 500px;
-            width: 90%;
-        }
-
-        /* === RODAPÉ === */
-        footer {
-            margin-top: 30px;
-            color: #d3c5a1;
-            font-size: 14px;
-            text-align: center;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            padding-top: 10px;
-        }
-
-        /* === RESPONSIVIDADE === */
-        @media (max-width: 520px) {
-            h1 {
-                font-size: 19px;
-            }
-
-            .card {
-                padding: 12px;
-            }
-
-            .name {
-                font-size: 16px;
-            }
-        }
-
-        /* === IMAGEM NO MODAL (AJUSTE AUTOMÁTICO) === */
-        .modal-card img {
-            width: 100%;
-            height: auto;
-            max-height: 80vh;
-            /* limita a altura ao tamanho da tela */
-            object-fit: contain;
-            /* mantém proporção sem cortar */
-            border-radius: 10px;
-            background: #000;
-            /* fundo preto para imagens com transparência */
-            display: block;
-            margin: 0 auto;
-        }
-
-        /* ajuste para imagem dentro do modal */
-        #modal-img {
-            width: 100%;
-            height: auto;
-            max-height: 80vh;
-            /* não ultrapassa 80% da altura da tela */
-            object-fit: contain;
-            /* mantém proporção, sem cortar */
-            border-radius: 10px;
-            background: #000;
-            /* bom para imagens com fundo claro/transparente */
-            display: block;
-            margin-top: 12px;
-        }
-    </style>
+    <title>Raizeiro Integral — Catálogo</title>
+    <meta name="description" content="Catálogo interativo de produtos Raizeiro Integral" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
     <div class="wrap">
+        <!-- HEADER -->
         <header>
             <div class="logo">
                 <img src="imagens/logo - preta.png" alt="Logo Raizeiro">
                 <div>
                     <h1>RAIZEIRO INTEGRAL — CATÁLOGO</h1>
-
                 </div>
             </div>
         </header>
 
+        <!-- CONTROLES -->
         <section class="controls">
             <div class="search">
-                <input id="search" type="search" placeholder="Pesquisar por nome (ex: ""FARINHA"", ""AVEIA"" )"
-                    aria-label="Pesquisar produtos" />
+                <input id="search" type="search" placeholder='Pesquisar por nome' aria-label="Pesquisar produtos" />
             </div>
 
             <div class="filters">
-
-
                 <select id="sortBy" class="select" title="Ordenar">
                     <option value="name-asc">Nome ↑</option>
                     <option value="name-desc">Nome ↓</option>
-                    <option value="price-asc">Preço ↑</option>
-                    <option value="price-desc">Preço ↓</option>
                 </select>
 
                 <div class="toolbar">
@@ -340,245 +39,39 @@
             </div>
         </section>
 
+        <!-- CATEGORIAS -->
         <main>
-            <div id="grid" class="grid"></div>
-            <button id="loadMoreBtn" class="btn" style="display:none; margin: 20px auto; display:block;">Carregar
-                mais</button>
+            <h2 id="titleMain">Categorias</h2>
+            <div id="categories" class="grid"></div>
 
-            <div id="empty" class="empty" style="display:none">Nenhum produto encontrado.</div>
+            <!-- PRODUTOS -->
+            <div id="produtosArea" style="display:none;">
+                <button id="btnBack" class="btn ghost">← Voltar para Categorias</button>
+                <h2 id="categoriaTitle"></h2>
+                <div id="grid" class="grid"></div>
+                <button id="loadMoreBtn" class="btn" style="display:none;">Carregar mais</button>
+            </div>
+
+            <div id="empty" class="empty" style="display:none;">Nenhum produto encontrado.</div>
         </main>
 
-        <footer>
-            2025 Raizeiro Integral
-        </footer>
+        <footer>2025 Raizeiro Integral</footer>
     </div>
 
-    <!-- o modal atual -->
+    <!-- MODAL -->
     <div id="modal" class="modal" role="dialog" aria-modal="true">
         <div class="modal-card">
             <div style="display:flex;justify-content:space-between;align-items:center">
                 <strong id="modal-title"></strong>
                 <button id="modal-close" class="btn ghost">Fechar</button>
             </div>
-
-            <!-- corpo do modal: só a imagem ampliada (nome está no título) -->
-            <div id="modal-body" style="margin-top:12px;color:#444">
+            <div id="modal-body">
                 <img id="modal-img" src="" alt="" />
             </div>
         </div>
     </div>
 
-
-    <script>
-        /* === Script atualizado: busca funcionando, KG primeiro, sem filtro de unidade === */
-
-        const SAMPLE_PRODUCTS = [
-            { nome: 'FARIN DE MANDIOCA FINA TOR KG', imagem: '' },
-            { nome: 'FARINHA DE ARROZ BRANCA KG', imagem: '' },
-            { nome: 'FARINHA DE AVEIA KG', imagem: '' }
-        ];
-
-        let products = [];
-        let isGrid = true;
-
-
-
-        // normaliza texto: minuscula + remove acentos
-        function normalizeStr(s) {
-            if (!s) return '';
-            return String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-        }
-
-        function isGranel(p) {
-            const name = normalizeStr(p.nome || '');
-            const unidade = normalizeStr(p.unidade || '');
-            // considera granel se o nome ou unidade contiver "kg" (palavra)
-            // usamos includes 'kg' para maior robustez
-            return name.includes(' kg') || name.endsWith('kg') || unidade.includes('kg') || name.includes('kg');
-        }
-
-        async function loadProducts() {
-            try {
-                const res = await fetch('produtos_todos.json');
-                if (!res.ok) throw new Error('JSON não disponível localmente');
-                products = await res.json();
-            } catch (e) {
-                console.warn('Não foi possível carregar produtos_todos.json, usando amostra. Erro:', e.message);
-                products = SAMPLE_PRODUCTS;
-            }
-            // ao carregar, aplicar filtros (vai ordenar KG primeiro por padrão)
-            applyFilters(); // inicia filtragem e mostra primeiros 60
-
-        }
-
-        function sanitizeName(n) { return (n || '').replace(/\s+/g, ' ').trim(); }
-
-
-        /* renderiza a lista recebida */
-        let visibleCount = 60; // mostra 60 produtos por vez
-        let filteredList = []; // guarda lista filtrada atual
-        const loadMoreBtn = document.getElementById('loadMoreBtn');
-
-        function renderProducts(list) {
-            const grid = document.getElementById('grid');
-            const empty = document.getElementById('empty');
-            grid.innerHTML = '';
-            if (!list || list.length === 0) { empty.style.display = 'block'; return; }
-            empty.style.display = 'none';
-
-            for (const p of list) {
-                const card = document.createElement('div');
-                card.className = 'card';
-
-                const thumb = document.createElement('div');
-                thumb.className = 'thumb';
-
-                if (p.imagem) {
-                    const img = document.createElement('img');
-                    img.src = p.imagem;
-                    img.alt = p.nome || 'produto';
-                    img.style.width = '100%';
-                    img.style.height = '100%';
-                    img.style.objectFit = 'cover';
-                    img.style.borderRadius = '8px';
-                    img.style.cursor = 'pointer';
-                    thumb.innerHTML = '';
-                    thumb.appendChild(img);
-
-                    // click só na imagem abre modal
-                    img.addEventListener('click', function (e) {
-                        e.stopPropagation();
-                        openModal(p);
-                    });
-                } else {
-                    // se não tiver imagem, mostra 'KG' ou vazio (podemos usar placeholder)
-                    const unitText = document.createElement('div');
-                    unitText.style.fontSize = '20px';
-                    unitText.style.fontWeight = '700';
-                    unitText.style.color = '#fff9e8';
-                    unitText.textContent = (p.nome && normalizeStr(p.nome).includes('kg')) ? 'KG' : '';
-                    thumb.innerHTML = '';
-                    thumb.appendChild(unitText);
-                }
-
-                const name = document.createElement('div');
-                name.className = 'name';
-                name.textContent = sanitizeName(p.nome || '—');
-
-                // meta (mantém unit se existir, mas sem preço/codigo)
-                const meta = document.createElement('div');
-                meta.className = 'meta';
-                const unit = document.createElement('div'); unit.className = 'unit'; unit.textContent = p.unidade || '';
-                meta.appendChild(unit);
-                // remover preço/código exibidos (não inserir)
-
-                card.appendChild(thumb);
-                card.appendChild(name);
-                card.appendChild(meta);
-
-                // não adicionar evento de click no card (só na imagem)
-                grid.appendChild(card);
-            }
-
-            // layout grade ou lista
-            document.getElementById('grid').style.display = isGrid ? '' : 'block';
-            if (!isGrid) {
-                document.querySelectorAll('.card').forEach(c => c.style.flexDirection = 'row');
-            } else {
-                document.querySelectorAll('.card').forEach(c => c.style.flexDirection = 'column');
-            }
-        }
-
-        /* Modal: só nome + imagem */
-        function openModal(p) {
-            document.getElementById('modal-title').textContent = p.nome || '';
-            const imgEl = document.getElementById('modal-img');
-            if (p.imagem) {
-                imgEl.src = p.imagem;
-                imgEl.alt = p.nome || 'Imagem do produto';
-                imgEl.style.display = '';
-            } else {
-                imgEl.src = '';
-                imgEl.alt = '';
-                imgEl.style.display = 'none';
-            }
-            document.getElementById('modal').classList.add('open');
-        }
-        function closeModal() { document.getElementById('modal').classList.remove('open'); }
-
-        /* === FILTROS, BUSCA E ORDENAÇÃO === */
-        const searchInput = document.getElementById('search');
-        const sortBy = document.getElementById('sortBy');
-        const toggleViewBtn = document.getElementById('toggleView');
-
-        /* Função principal de filtro + ordenação + garantir KG primeiro */
-        function applyFilters() {
-            const q = normalizeStr(searchInput.value || '');
-            filteredList = products.filter(p => {
-                const nameNorm = normalizeStr(p.nome || '');
-                return !q || nameNorm.includes(q);
-            });
-
-            // ordena: granel primeiro
-            const s = sortBy.value;
-            filteredList.sort((a, b) => {
-                const aGr = isGranel(a) ? 0 : 1;
-                const bGr = isGranel(b) ? 0 : 1;
-                if (aGr !== bGr) return aGr - bGr;
-
-                // mesma categoria: ordena pelo nome
-                if (s === 'name-asc') return (a.nome || '').localeCompare(b.nome || '');
-                if (s === 'name-desc') return (b.nome || '').localeCompare(a.nome || '');
-                return 0;
-            });
-
-            visibleCount = 60; // volta pro início
-            renderVisibleProducts();
-        }
-        function renderVisibleProducts() {
-            const slice = filteredList.slice(0, visibleCount);
-            renderProducts(slice);
-
-            // mostra/esconde o botão conforme quantidade
-            if (visibleCount < filteredList.length) {
-                loadMoreBtn.style.display = 'block';
-            } else {
-                loadMoreBtn.style.display = 'none';
-            }
-        }
-        loadMoreBtn.addEventListener('click', () => {
-            visibleCount += 60;
-            renderVisibleProducts();
-        });
-
-
-
-        /* debounce simples */
-        function debounce(fn, wait = 180) { let t; return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), wait); }; }
-        const debouncedApply = debounce(applyFilters, 140);
-
-        searchInput.addEventListener('input', debouncedApply);
-        sortBy.addEventListener('change', applyFilters);
-
-        toggleViewBtn.addEventListener('click', () => {
-            isGrid = !isGrid;
-            toggleViewBtn.textContent = isGrid ? 'Alternar Grade' : 'Alternar Lista';
-            // re-aplica filtros para renderizar com a nova vista
-            applyFilters(); // inicia filtragem e mostra primeiros 60
-
-        });
-
-        /* fechar modal */
-        document.getElementById('modal-close').addEventListener('click', closeModal);
-        document.getElementById('modal').addEventListener('click', (e) => { if (e.target.id === 'modal') closeModal(); });
-
-        /* start */
-        console.info('Catálogo carregando — usando produtos_todos.json se existir.');
-        loadProducts();
-
-    </script>
-
-
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,324 @@
+:root {
+            --brand-orange: #e27c1e;
+            /* Laranja queimado */
+            --brand-yellow: #f8d46b;
+            /* Amarelo natural */
+            --brand-black: #1a1a1a;
+            /* Preto base */
+            --wood-bg: #2c2117;
+            /* Fundo amadeirado escuro */
+            --wood-light: #4b3826;
+            /* Tom claro para os cards */
+            --text-main: #fff9e8;
+            /* Texto principal (creme) */
+            --text-highlight: #fff4b0;
+            /* Título dos produtos */
+            --border-card: #e8a34b;
+            /* Dourado nos contornos */
+            --shadow: rgba(0, 0, 0, 0.45);
+            --radius: 14px;
+            --max-width: 1100px;
+            font-family: "Poppins", system-ui, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            background: var(--wood-bg);
+            color: var(--text-main);
+            background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+            background-repeat: repeat;
+            background-attachment: fixed;
+        }
+
+        /* === ESTRUTURA GERAL === */
+        .wrap {
+            max-width: var(--max-width);
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        /* === CABEÇALHO === */
+        header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            border-bottom: 2px solid var(--brand-orange);
+            padding-bottom: 12px;
+        }
+
+        .logo img {
+            width: 250px;
+            height: auto;
+            margin-left: 400px;
+            /* ajusta a posição para a direita */
+        }
+
+
+        h1 {
+            margin: 0;
+            font-size: 24px;
+            color: var(--brand-yellow);
+            text-shadow: 0 2px 3px #000;
+        }
+
+        p.lead {
+            margin: 0;
+            color: #d6c7a2;
+            font-size: 14px;
+        }
+
+        /* === BARRA DE BUSCA E FILTROS === */
+        .controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 18px;
+            align-items: center;
+        }
+
+        .search {
+            flex: 1;
+            min-width: 220px;
+        }
+
+        input[type="search"] {
+            width: 100%;
+            padding: 11px 14px;
+            border-radius: var(--radius);
+            border: 1px solid #5a4633;
+            background: #3a2c1f;
+            color: var(--text-main);
+            font-size: 15px;
+            outline: none;
+        }
+
+        input[type="search"]:focus {
+            border-color: var(--brand-yellow);
+            box-shadow: 0 0 6px var(--brand-yellow);
+        }
+
+        /* === BOTÕES === */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 9px 12px;
+            border-radius: var(--radius);
+            border: none;
+            cursor: pointer;
+            background: var(--brand-orange);
+            color: #fff;
+            font-weight: 600;
+            transition: 0.2s;
+        }
+
+        .btn:hover {
+            background: var(--brand-yellow);
+            color: var(--brand-black);
+            transform: translateY(-1px);
+        }
+
+        .btn.ghost {
+            background: transparent;
+            border: 1px solid var(--brand-orange);
+            color: var(--brand-orange);
+        }
+
+        .btn.ghost:hover {
+            background: var(--brand-orange);
+            color: #fff;
+        }
+
+        /* === SELECTS === */
+        .select {
+            padding: 8px;
+            border-radius: var(--radius);
+            border: 1px solid #5a4633;
+            background: #3a2c1f;
+            color: var(--text-main);
+        }
+
+        /* === GRID DE PRODUTOS === */
+        main {
+            margin-top: 24px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 22px;
+            margin-top: 10px;
+        }
+
+        /* === CARDS === */
+        .card {
+            background: var(--wood-light);
+            border: 2px solid var(--border-card);
+            border-radius: var(--radius);
+            padding: 16px;
+            box-shadow: 0 4px 10px var(--shadow);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            cursor: pointer;
+            transition: all 0.25s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+            border-color: var(--brand-yellow);
+        }
+
+        /* Texto do produto */
+        .name {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text-highlight);
+            text-shadow: 1px 1px 2px #000;
+            letter-spacing: 0.4px;
+            line-height: 1.4;
+            text-align: center;
+        }
+
+        /* Unidade (ex: KG) */
+
+
+        /* Mini box superior (sem imagem) */
+        .thumb {
+            height: 220px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            border: 1px dashed rgba(255, 255, 255, 0.15);
+            background: rgba(0, 0, 0, 0.15);
+            color: var(--text-main);
+            margin-bottom: 8px;
+        }
+
+        /* === AJUSTE DAS IMAGENS NOS CARDS === */
+        .thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* preenche o quadrado mantendo proporção */
+            border-radius: 10px;
+            display: block;
+        }
+
+        /* === MODAL === */
+        .modal {
+            position: fixed;
+            inset: 0;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 999;
+        }
+
+        .modal.open {
+            display: flex;
+        }
+
+        .modal-card {
+            background: var(--wood-light);
+            border-radius: var(--radius);
+            padding: 20px;
+            color: var(--text-main);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+            max-width: 500px;
+            width: 90%;
+        }
+
+        /* === RODAPÉ === */
+        footer {
+            margin-top: 30px;
+            color: #d3c5a1;
+            font-size: 14px;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 10px;
+        }
+
+        /* === RESPONSIVIDADE === */
+        @media (max-width: 520px) {
+            h1 {
+                font-size: 19px;
+            }
+
+            .card {
+                padding: 12px;
+            }
+
+            .name {
+                font-size: 16px;
+            }
+        }
+
+        /* === IMAGEM NO MODAL (AJUSTE AUTOMÁTICO) === */
+        .modal-card img {
+            width: 100%;
+            height: auto;
+            max-height: 80vh;
+            /* limita a altura ao tamanho da tela */
+            object-fit: contain;
+            /* mantém proporção sem cortar */
+            border-radius: 10px;
+            background: #000;
+            /* fundo preto para imagens com transparência */
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* ajuste para imagem dentro do modal */
+        #modal-img {
+            width: 100%;
+            height: auto;
+            max-height: 80vh;
+            /* não ultrapassa 80% da altura da tela */
+            object-fit: contain;
+            /* mantém proporção, sem cortar */
+            border-radius: 10px;
+            background: #000;
+            /* bom para imagens com fundo claro/transparente */
+            display: block;
+            margin-top: 12px;
+        }
+        /* === CARDS DE CATEGORIA === */
+.cat-card {
+  background: var(--wood-light);
+  border: 2px solid var(--border-card);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: 0 4px 10px var(--shadow);
+  cursor: pointer;
+  transition: 0.25s;
+  text-align: center;
+}
+
+.cat-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--brand-yellow);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
+
+.cat-card h3 {
+  margin: 0;
+  color: var(--text-highlight);
+  font-size: 20px;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.cat-card p {
+  margin-top: 6px;
+  color: #f5dca6;
+  font-size: 14px;
+}
